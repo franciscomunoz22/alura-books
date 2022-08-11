@@ -1,0 +1,61 @@
+@import url(cabecalho.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(card.css);
+@import url(topicos.css);
+@import url(contato.css);
+@import url(rodape.css);
+
+:root {
+    /*cores cabecalho*/
+    --cor-fundo-cabecalho: #FFFFFF;
+    --cor-fundo-pagina: #EBECEE;
+    --cor-titulo-menu-hamburguer: #EB9B00;
+    --cor-link-menu-hamburguer: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-link-cabecalho: #000000;
+    --cor-link-ativo: #FFFFFF;
+
+    /*cores banner*/
+    --cor-fundo-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-fonte-banner: #FFFFFF;
+    --cor-borda-botao: #FFFFFF;
+
+    /*cores carrossel*/
+    --cor-fundo-carrossel: #FFFFFF;
+    --cor-titulo-carrossel: #EB9B00;
+    --cor-seta-carrossel: #002F52;
+
+    /*cores card*/
+    --cor-fundo-card: #FFFFFF;
+    --cor-fundo-botao: #EB9B00;
+    --cor-titulo: #EB9B00;
+    --cor-titulo-livro: #002F52;
+    --cor-texto-botao: #FFFFFF;
+
+    /*cores topicos*/
+    --cor-fundo-topicos: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-texto-topicos: #FFFFFF;
+    --cor-fundo-botao-topicos: #EB9B00;
+
+    /*cores contato*/
+    --cor-fundo-contato: #FFFFFF;
+    --cor-texto-contato: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-borda-botao-contato: #002F52;
+
+    /*cores rodape*/
+    --cor-fundo-rodape: #F9F9F9;
+    --cor-borda-rodape: #ddd5d5;
+    --cor-titulo-rodape: #858585;
+    --cor-link-rodape: #474646;
+    
+    /*fontes*/
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo-pagina);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
